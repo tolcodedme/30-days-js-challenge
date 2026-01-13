@@ -8,7 +8,12 @@
 - Events
 - State
 
-🚀 Notions Clées :
+> Notions Clées :
 - Opérateur ternaire
 - innerText / innerHTML
 - Sélection (querySelector)
+
+🚀 Résultat :
+
+
+
