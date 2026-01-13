@@ -14,6 +14,4 @@
 - Sélection (querySelector)
 
 🚀 Résultat :
-
-
-
+<img width="1366" height="729" alt="result" src="https://github.com/user-attachments/assets/489a6552-579e-4567-a5a0-67c06ae51c61" />
