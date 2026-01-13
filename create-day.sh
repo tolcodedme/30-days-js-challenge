@@ -36,6 +36,10 @@ cat << EOF > $FOLDER/index.html
 
     <h1>DAY $DAY CHALLENGE - $TITLE EN JAVASCRIPT</h1>
     
+     <div class="project-head">
+        <span style="font-style: italic;">by</span>
+        <p class="author">Tol Coded-me</p>
+    </div>
     <script src="script.js" defer></script>
 </body>
 </html>
@@ -69,12 +73,34 @@ body {
   align-items: center;
   justify-content: center;
   background-color: var(--gray);
+  flex-direction: column;
+  position: relative;
+}
+
+.project-head{
+  text-align: center;
+  color: var(--primary-color);
+  position: absolute;
+  right: 35px;
+  bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.project-head span {
+  font-size: 14px;
+}
+.author{
+  font-weight: 600;
 }
 
 /* Project Code  */
 h1{
   color: var(--gray-light);  
 }
+
 ...
 EOF
 
