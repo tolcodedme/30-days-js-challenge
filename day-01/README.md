@@ -15,5 +15,4 @@
 
 🚀 Résultat :
 
-
-
+<img width="1366" height="689" alt="result" src="https://github.com/user-attachments/assets/46fc57f2-bc32-4883-bb84-0627f98ede87" />
