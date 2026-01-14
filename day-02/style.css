@@ -1,0 +1,66 @@
+.darkmode{
+  --primary-color : #F2BF26 ;
+  --gray: #A6A194;
+
+  --text-color: #F2F0E9;
+  --background-color : #0D0C0C;
+}
+
+.wrapper{
+  margin: 50px 10%;
+  
+}
+
+.button-wrapper button{
+  padding: 12px 26px;
+  border-radius: 4px;
+  margin-top: 14px;
+  font-weight: 550;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  border: none;
+}
+
+.button-wrapper button:first-child{
+  background-color: var(--primary-color);
+  color: var(--gray);
+  margin-right: 7px;
+}
+
+.button-wrapper button:last-child{
+  background-color: var(--background-color);
+  color: var(--gray);
+  border: 1px solid var(--gray);
+}
+
+.darkmode .button-wrapper button:first-child{
+  color: var(--background-color) !important;
+}
+
+.darkmode .signature{
+  color: var(--primary-color) !important;
+}
+
+.themeSwitch{
+  background-color: var(--gray);
+  position: fixed;
+  right: 30px;
+  top: 25px;
+  padding: 7px;
+  border-radius: 24px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  border: none;
+}
+
+.themeSwitch svg:last-child{
+  display: none;
+}
+
+.darkmode .themeSwitch svg:first-child {
+  display: none;
+}
+
+.darkmode .themeSwitch svg:last-child{
+  display: block;
+}

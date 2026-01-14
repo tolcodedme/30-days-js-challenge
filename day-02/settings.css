@@ -1,0 +1,51 @@
+/* DAY 02 - Theme (Light/Dark) */
+/* Project Settings */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --primary-color : #F2BF26 ;
+  --gray : #32312D;
+
+  --background-color: #F2F0E9;
+  --text-color : #0D0C0C;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.signature{
+  text-align: center;
+  color: var(--gray);
+  opacity: 0.7;
+  position: absolute;
+  right: 35px;
+  bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.signature span {
+  font-size: 14px;
+}
+.author{
+  font-weight: 600;
+}

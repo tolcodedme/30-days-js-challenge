@@ -30,7 +30,9 @@ cat << EOF > $FOLDER/index.html
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>$TITLE</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./settings.css">
+    <link rel="stylesheet" href="./style.css">
+    <script type="text/javascript" src="script.js" defer></script>
 </head>
 <body>
 
@@ -40,15 +42,14 @@ cat << EOF > $FOLDER/index.html
         <span style="font-style: italic;">by</span>
         <p class="author">Tol Coded-me</p>
     </div>
-    <script src="script.js" defer></script>
 </body>
 </html>
 EOF
 
-cat <<EOF > $FOLDER/style.css
+cat <<EOF > $FOLDER/settings.css
 /* DAY $DAY - $TITLE */
 /* Project Settings */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
   padding: 0;
@@ -77,7 +78,7 @@ body {
   position: relative;
 }
 
-.project-head{
+.signature{
   text-align: center;
   color: var(--primary-color);
   position: absolute;
@@ -89,13 +90,16 @@ body {
   gap: 5px;
 }
 
-.project-head span {
+.signature span {
   font-size: 14px;
 }
 .author{
   font-weight: 600;
 }
 
+EOF
+
+cat << EOF > $FOLDER/style.css
 /* Project Code  */
 h1{
   color: var(--gray-light);  
