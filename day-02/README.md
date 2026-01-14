@@ -1,6 +1,6 @@
-# Day 02 CHALLENGE - Toogle Theme (Light/Dark) EN JAVASCRIPT
+# Day 02 CHALLENGE - Theme (Light/Dark) EN JAVASCRIPT
 
-### 🟢 **Jour 2 – Toggle Theme (Light / Dark)**
+### 🟢 **Jour 2 – Theme (Light / Dark)**
 
 🧠 **Objectif cognitif**
 
