@@ -38,7 +38,7 @@ cat << EOF > $FOLDER/index.html
 
     <h1>DAY $DAY CHALLENGE - $TITLE EN JAVASCRIPT</h1>
     
-     <div class="project-head">
+     <div class="signature">
         <span style="font-style: italic;">by</span>
         <p class="author">Tol Coded-me</p>
     </div>
