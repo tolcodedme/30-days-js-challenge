@@ -1,12 +1,15 @@
 # Day 03 CHALLENGE - TABS DYNAMIQUES EN JAVASCRIPT
 
-🎯 Objectif :
-- ...
+🧠 **Objectif cognitif**
 
-🛠️ Concepts :
-- DOM
-- Events
-- ...
+- Navigation contrôlée par l’état
 
-🚀 Résultat :
-- ...
+🛠️ **Concepts**
+
+- Event delegation
+- Index actif
+- Data-attributes
+
+📌 **Livrable**
+
+- Onglets pilotés uniquement par JS
