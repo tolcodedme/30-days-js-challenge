@@ -12,6 +12,8 @@
 
 ## 📅 Projets
 - Day 01 – Compteur Intelligent (Incrémentation et Désincrémentation)
-- Day 02 – ...
+- Day 02 – Theme (Light/Dark)
+- Day 03 - Tabs Dynamiques
+- Day 04 - Accordion FAQ
 - ...
 - Day 30 – ...
