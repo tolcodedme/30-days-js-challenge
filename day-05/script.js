@@ -1,4 +1,4 @@
-console.log('DAY 05 - Javascript Challenge - Modal Réutilisable');
+console.log('DAY 05 - Javascript Challenge - Modal');
 
 const modalButtonTrigger = document.querySelector('.modal-btn-trigger')
 const modalOverlay = document.querySelector('.modal-overlay')

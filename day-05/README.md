@@ -1,10 +1,10 @@
-# Day 05 CHALLENGE - Modal Réutilisable EN JAVASCRIPT
+# Day 05 CHALLENGE - Modal EN JAVASCRIPT
 
-### 🟢 **Jour 5 – Modal réutilisable**
+### 🟢 **Jour 5 – Modal**
 
 🧠 **Objectif cognitif**
 
-- Composant UI isolé
+- Un modal
 
 🛠️ **Concepts**
 
@@ -14,4 +14,4 @@
 
 📌 **Livrable**
 
-- Modal ouvrable depuis n’importe quel bouton
+- Modal ouvrable depuis un bouton
